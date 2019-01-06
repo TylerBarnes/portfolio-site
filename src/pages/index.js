@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const IndexPage = () => (
-    <Layout>
+    <div>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site.</p>
@@ -20,7 +20,7 @@ const IndexPage = () => (
       <AniLink fade to="/page-2/">
         Go to Page 2 with Ani
       </AniLink>
-    </Layout>
+    </div>
 )
 
 export default IndexPage
